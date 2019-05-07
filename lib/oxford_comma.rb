@@ -1,9 +1,9 @@
-def oxford_comma(array)
-  if array.size == 1
-    array.join("")
-  elsif array.size == 2
-    array.join(" and ")   
-  elsif array.size > 2
-    array.insert(-2, "and")
-    array.join(", ")
+def oxford_comma(str_array)
+  if str_array.size == 1
+    str_array.join("")
+  elsif str_array.size == 2
+    str_array.join(" and ")   
+  elsif str_array.size > 2
+    str_array.insert(-2, "and")
+    str_aarray.join(", ")
 end
