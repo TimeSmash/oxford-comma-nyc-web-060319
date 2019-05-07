@@ -5,5 +5,5 @@ def oxford_comma(str_array)
     str_array.join(" and ")   
   elsif str_array.size > 2
     str_array.insert(-2, "and")
-    str_aarray.join(", ")
+    str_array.join(", ")
 end
